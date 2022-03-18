@@ -12,7 +12,7 @@ import { proxy } from './proxy'
 export const devServer = {
   useLocalIp: true,
   host: '0.0.0.0',
-  openPage: 'index.html',
+  openPage: '',
   overlay: true,
   hot: true,
   open: true,

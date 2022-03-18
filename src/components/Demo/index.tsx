@@ -19,14 +19,13 @@ export default class extends React.Component<Props, State> {
   constructor(props) {
     super(props);
   }
-  componentDidMount() {}
+  componentDidMount() { }
   render() {
     return (
       <div>
         <h1 className={["demo-component"]}>
           demo11111
           <a href="demo2.html">跳转到demo22222</a>
-          <b>{JSON.stringify(this.props.match.params)}</b>
         </h1>
       </div>
     );

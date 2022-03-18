@@ -1,5 +1,12 @@
-import { hot } from "react-hot-loader/root";
-import React from "React";
-import boostrap from "@/common/bootstrap";
-const App = () => <div>Hello World!</div>;
-boostrap(hot(App));
+import React from 'react'
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+    Link,
+} from "react-router-dom";
+import bootstrap from '@/common/bootstrap';
+import AppRoute from '@/routes/index';
+
+
+bootstrap(AppRoute)
